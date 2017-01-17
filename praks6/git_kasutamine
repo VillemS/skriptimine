@@ -9,3 +9,12 @@ git config --gloval core.editor nano
 git int
 5) loo ligipaas kaudsele kontole
 git remoteadd nimi https://github.com/KasutajaNimi/repo.git
+6) lisa fail jalgimisele
+git add failinimi
+7) kirjelda muudatused
+git commit -a
+8) lukka kirjeldatud kaudele repositooriumile 
+git push -u ligipaasu_nimi oksa_nimi
+naiteks: git push -u skirptimine master
+9) juhul, kui on probleem lukkamisega, rakenda -f voti
+git push -uf skriptimine master
