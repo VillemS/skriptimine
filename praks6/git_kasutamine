@@ -1,0 +1,11 @@
+1) paigalda
+apt-get install git-all
+2) oma kasutaja all konfigureeri git
+git config --global user.name "KasutajaNimi"
+git config --global user.email kasutaja@email
+git config --gloval core.editor nano
+3) mine kataloogi, kus hoiad skriptid
+4) antud kasutas initsaliseeri git kasutamine
+git int
+5) loo ligipaas kaudsele kontole
+git remoteadd nimi https://github.com/KasutajaNimi/repo.git
