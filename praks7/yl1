@@ -9,5 +9,11 @@ if [ $kuu -eq 1-o $kuu -eq 2 -o $kuu -eq 12 ]; then
 	echo "Preagu on talv"
 elif [ $kuu -eq 3 -o $kuu -eq 4 -o $kuu -eq 5 ]; then
 	echo "Preagu on kevad"
+elif [ $kuu -eq 6 -o $kuu -eq 7 -o -eq 8 ]; then
+	echo "Preagu on suvi"
+elif [ $kuu 9 -o $kuu eq 10 -o $kuu -eq 11 ]; then
+	echo "Preagu on sugis"
+else
+echo "Antud  kuu number ei eksisteeri"
 fi
 
